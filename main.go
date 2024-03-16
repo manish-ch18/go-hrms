@@ -26,7 +26,7 @@ type MongoInstance struct {
 }
 
 const dbName = "go-hrms"
-const mongoURI = "mongo://localhost:27017/" //+ dbName
+const mongoURI = "mongo://localhost:27017" //+ dbName
 
 var mg MongoInstance
 
